@@ -44,3 +44,23 @@ print(uk_resident)
 - Generate ssh key-pair on localhost
 - Keep the private key on localhost inside .ssh folder
 - Copy the public key into your repository on GitHub
+
+# How to Set Up GitHub Using .ssh Keys
+
+## Create GitHub SSH Keys
+- The SSH keys you create for GitHub must go in the .ssh folder
+- `mkdir .ssh`
+- Generate a new set of keys
+- `ssh-keygen -t rsa -b 4096 -C your@email.com`
+- Add your SSH key to ssh-agent
+```python
+eval `ssh-agent -s`
+ssh-agent -s
+```
+- Add your private key to ssh-agent
+- `ssh-add ~/.ssh/id_rsa`
+- Copy your public key to the clipboard
+- `clip < ~/.ssh/id_rsa.pub`#
+- Add your public SSH key to GitHub. Go to GitHub settings page and click the "New SSH key" button. Paste in your public (id_rsa.pub) key
+
+![New_SHH_Key!]("C:\Users\Moham\OneDrive\Desktop\github-add-ssh-key.png")
