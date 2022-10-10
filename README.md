@@ -1,14 +1,29 @@
-# Python intro
+# Python Introduction
 
 ## Why Python
+- Easy to learn 
+- Flexible
+- Efficient, fast and reliable
+- Libraries and frameworks
 ## Python Use Cases
-## Python Set Up With PyCharm
+- Web Applications
+- Data Science
+- Artificial Intelligence
+- Game Development
+- Data Analytics
 ## Python Variables
-
-- Env Testing `print("hello world)`
-
+Variables are containers for storing data values
+- `first_name = "Mohamed" - String`
+- `DOB = 99 - Integer`
+- `UK_resident = yes or no - Boolean`
+- `travel = 15.4 - Float`
 
 ```python
+# Interact with users by taking user data in - input()
+# print("Good Morning, Please Enter Your Name")
+# name = input() # took user input and stored in the var called name
+# print(name) # then printed the user's name
+
 print("Good Morning, Please Enter Your Full Name") # Get user first_name and last_name
 full_name = input()
 print("Enter Your DOB") # User DOB
@@ -23,6 +38,7 @@ print(d_o_b)
 print(course_name)
 print(uk_resident)
 ```
+
 
 ## Localhost to GitHub
 - Generate ssh key-pair on localhost
