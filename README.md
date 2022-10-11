@@ -45,6 +45,8 @@ print(uk_resident)
 - Keep the private key on localhost inside .ssh folder
 - Copy the public key into your repository on GitHub
 
+![ssh-diagram](images/ssh-authentication.png)
+
 # How to Set Up GitHub Using .ssh Keys
 
 ## Create GitHub SSH Keys
