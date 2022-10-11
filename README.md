@@ -76,6 +76,8 @@ ssh-agent -s
 - `git status`
 - `git status`
 
+## Git Cheat Sheet
+![git-cheat-sheet](images/cheat-sheet.png)
 
 ## Intro to Data Types and Operators 
 - `+ - * /`
