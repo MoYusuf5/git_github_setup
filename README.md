@@ -62,3 +62,5 @@ ssh-agent -s
 - Copy your public key to the clipboard
 - `clip < ~/.ssh/id_rsa.pub`#
 - Add your public SSH key to GitHub. Go to GitHub settings page and click the "New SSH key" button. Paste in your public (id_rsa.pub) key
+
+![add-ssh-key](images/github-add-ssh-key.png)
