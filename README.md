@@ -66,3 +66,11 @@ ssh-agent -s
 - Add your public SSH key to GitHub. Go to GitHub settings page and click the "New SSH key" button. Paste in your public (id_rsa.pub) key
 
 ![add-ssh-key](images/github-add-ssh-key.png)
+
+## Git & GithHub
+- Add changes to our GitHub repo
+- `git add filename` or `git add .` - means push everyting from current location
+- `git commit -m "new markdown guide added"`
+- Now let's send this new data to GitHub
+- `git push -u origin main`
+- `git status`
