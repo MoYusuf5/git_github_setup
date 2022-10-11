@@ -77,5 +77,4 @@ ssh-agent -s
 - `git status`
 =======
 - `git status`
->>>>>>> 6c1c1f1b4d932754bd200ff0160251f9dec1bec9
 - checking
