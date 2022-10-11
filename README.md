@@ -75,3 +75,27 @@ ssh-agent -s
 - `git push -u origin main`
 - `git status`
 - `git status`
+
+
+## Intro to Data Types and Operators 
+- `+ - * /`
+
+### Comparison Operators
+- `>` greater than
+- `<` less than
+- `==` equal to (True or False)
+- `>=` greater than or equal to 
+- `<=` less than or equal to 
+
+```python
+a = 24
+b = 16
+
+print(a + b) # outcome added value of a & b
+print(a - b) # outcome -a from b
+
+# Comparison
+print(a > b) # True
+print(a < b) # False
+print(a == b) # False
+```
