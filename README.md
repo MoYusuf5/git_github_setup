@@ -151,3 +151,6 @@ print(Example_text.upper()) # converts the string to upper case
 print(Example_text.capitalize()) # capitalises the first character in a string
 print(Example_text.replace("with" , "," ))
 ```
+
+### Concatenation & Casting
+
