@@ -73,8 +73,5 @@ ssh-agent -s
 - `git commit -m "new markdown guide added"`
 - Now let's send this new data to GitHub
 - `git push -u origin main`
-<<<<<<< HEAD
 - `git status`
-=======
 - `git status`
-- checking
