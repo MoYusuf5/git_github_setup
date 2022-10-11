@@ -153,4 +153,78 @@ print(Example_text.replace("with" , "," ))
 ```
 
 ### Concatenation & Casting
+```python
+user data input
+first_name = "Mohamed"
+last_name = "Yusuf"
+salary = 40
+
+print(first_name)
+print(last_name)
+# print(first_name + " " + last_name + salary)
+print(first_name + " " + last_name + " " + str(salary)) # Cast by using the str function to convert an int to a str
+# F String
+print(f"Hello {first_name} {last_name}") # Only works with 3.5/6 or above
+
+```
+
+```python
+# TASK
+
+print("Good Morning, Please Enter Your Full Name") # Get user first_name and last_name
+full_name = input()
+print("Enter Your DOB") # User DOB
+d_o_b = input()
+print("Enter Your Course Name") # Course name
+course_name = input()
+print("Are You a UK resident?") # UK_resident
+uk_resident = input()
+print("What is your door number?") # Door number
+door_number = input()
+print("What is your street address?") # Address
+street_address = input()
+print("What is your hobby?") # Hobby
+hobby = input()
+
+print(f"My name is {full_name}. I was born on {d_o_b}. I study {course_name}. A UK resident? {uk_resident}. I live at {door_number} {street_address}. My favourite hooby is {hobby}.")
+```
+
+## Data Collection
+- Lists, Tuples, Dict
+- Apply DRY
+
+Lists
+- syntax `list_name = ["djwn", "fjnd", "nfeunewn"]`
+
+```python
+shopping_list = ["ketchup", "fanta", "eggs", "bread"]
+print(shopping_list)
+print(type(shopping_list))
+shopping_list.append("chicken") # add an item to the list
+print(shopping_list)
+print(shopping_list[2]) # prints the specific index number provided
+shopping_list[2] = "ice cream" # replaces
+print(shopping_list)
+shopping_list.remove("fanta") # removes an item from the list
+print(shopping_list)
+```
+Can lists have multiple data types?
+```python
+multiple_type = [1, 2, 3, "one", "ten"]
+print(multiple_type)
+```
+
+Tuples
+- Immuatable - cannot be changed - edited - added
+- user_details = DOB - country name - city name
+- Syntax ("")
+
+```python
+essentials = ("milk", "paracetamol", "drinks")
+print(essentials)
+print(type(essentials))
+# What is the difference between Lists & Tuples
+essentials[0] = "coffee"
+print(essentials) # TypeError: 'tuple' object does not support item assignment
+```
 
