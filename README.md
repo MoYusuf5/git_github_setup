@@ -228,3 +228,7 @@ essentials[0] = "coffee"
 print(essentials) # TypeError: 'tuple' object does not support item assignment
 ```
 
+## W3SCHOOLS EXERCISES 
+- TASK - Complete exercises on topics learnt
+
+![w3schools-exercises](images/screenshot-w3schools-exercise.png)
